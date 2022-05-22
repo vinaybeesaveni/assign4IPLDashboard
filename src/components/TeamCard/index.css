@@ -1,0 +1,22 @@
+.team-img {
+  width: 50px;
+  height: 50px;
+  margin-right: 5px;
+}
+.team-name {
+  font-size: 12px;
+  font-weight: 500;
+  color: white;
+  text-align: center;
+}
+.list-item {
+  display: flex;
+  align-items: center;
+  width: 155px;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  background-color: #ffffff33;
+  height: 100px;
+  padding: 10px;
+  margin-bottom: 15px;
+}
