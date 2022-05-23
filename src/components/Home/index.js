@@ -1,5 +1,4 @@
 import {Component} from 'react'
-// import {BrowserRouter} from 'react-router-dom'
 import TeamCard from '../TeamCard'
 import './index.css'
 
