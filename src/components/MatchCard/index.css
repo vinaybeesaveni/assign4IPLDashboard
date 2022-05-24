@@ -1,1 +1,68 @@
-/* Write your CSS here */
+.recent-match-card {
+  height: 50vh;
+  background-color: #0f172a;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 48%;
+  padding: 15px;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+@media screen and (min-width: 768px) {
+  .recent-match-card {
+    width: 31%;
+    height: 30vh;
+  }
+}
+@media screen and (min-width: 992px) {
+  .recent-match-card {
+    height: 50vh;
+  }
+}
+.recent-match-team-logo {
+  width: 60px;
+  height: 60px;
+}
+@media screen and (min-width: 768px) {
+  .recent-match-team-logo {
+    width: 70px;
+    height: 70px;
+  }
+}
+.recent-match-competing-team {
+  color: white;
+  text-align: center;
+  font-size: 16px;
+  min-width: 110px;
+}
+@media screen and (min-width: 768px) {
+  .recent-match-competing-team {
+    max-width: 150px;
+    font-size: 18px;
+  }
+}
+.recent-match-result {
+  color: white;
+  text-align: center;
+  font-size: 13px;
+}
+
+.green {
+  color: #18ed66;
+}
+.red {
+  color: #e31a1a;
+}
+@media screen and (min-width: 768px) {
+  .recent-match-result {
+    font-size: 14px;
+  }
+  .green {
+    font-size: 17px;
+  }
+  .red {
+    font-size: 17px;
+  }
+}

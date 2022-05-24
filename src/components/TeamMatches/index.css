@@ -2,14 +2,73 @@
   width: 100%;
   height: 20vh;
 }
+@media screen and (min-width: 768px) {
+  .team-banner-img {
+    height: 25vh;
+  }
+}
+@media screen and (min-width: 992px) {
+  .team-banner-img {
+    height: 40vh;
+  }
+}
 .team-match-details-container {
   padding-top: 5%;
   padding-left: 15px;
   padding-right: 15px;
-  background-color: #a4261d;
   min-height: 100vh;
+  padding-bottom: 5%;
+}
+@media screen and (min-width: 768px) {
+  .team-match-details-container {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}
+@media screen and (min-width: 992px) {
+  .team-match-details-container {
+    padding-top: 2%;
+    padding-left: 12%;
+    padding-right: 12%;
+  }
+}
+.dc {
+  background-color: #4f5db0;
+}
+.rr {
+  background-color: #da237b;
+}
+.rcb {
+  background-color: #a4261d;
+}
+.mi {
+  background-color: #13418b;
+}
+.srh {
+  background-color: #f26d22;
+}
+.kxp {
+  background-color: #d91c1f;
+}
+.csk {
+  background-color: #f7db00;
+}
+.kkr {
+  background-color: #5755a7;
 }
 .latest-matches {
   color: white;
   font-size: 20px;
+}
+@media screen and (min-width: 768px) {
+  .latest-matches {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+}
+.loader-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
 }

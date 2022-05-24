@@ -1,1 +1,120 @@
-/* Write your CSS here */
+.latest-match-container {
+  background-color: #0f172a;
+  border-radius: 10px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+@media screen and (min-width: 768px) {
+  .latest-match-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 30vh;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .latest-match-container {
+    height: 50vh;
+  }
+}
+.competing-team {
+  color: white;
+  font-weight: 500;
+  font-size: 18px;
+  margin: 0;
+}
+.date {
+  color: white;
+  font-size: 19px;
+}
+.venue {
+  color: white;
+  font-size: 14px;
+}
+.result-main {
+  color: white;
+  font-size: 14px;
+}
+.competing-team-logo-container {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+}
+@media screen and (min-width: 768px) {
+  .competing-team-logo-container {
+    width: 190px;
+  }
+}
+.competing-team-main-img {
+  width: 90px;
+  height: 70px;
+  margin-left: 10px;
+}
+.competing-team-main-img-desktop {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .competing-team-main-img {
+    display: none;
+  }
+  .competing-team-main-img-desktop {
+    display: flex;
+    width: 170px;
+    height: 130px;
+    margin-left: 10px;
+  }
+}
+.first-innings-container {
+  padding: 15px;
+  width: 1005;
+}
+@media screen and (min-width: 768px) {
+  .first-innings-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+}
+.first-innings-heading {
+  color: white;
+  font-size: 16px;
+  margin-bottom: 0;
+}
+.first-innings-team {
+  color: white;
+  font-size: 13px;
+  margin-bottom: 0;
+}
+.team-card-container {
+  list-style: none;
+  padding: 0;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+@media screen and (min-width: 768px) {
+  .team-card-container {
+    margin-top: 4%;
+  }
+}
+.first-innings {
+  margin-top: 0;
+  color: white;
+  font-size: 16px;
+}
+@media screen and (min-width: 768px) {
+  .first-innings {
+    margin-bottom: 0;
+  }
+}
+hr {
+  width: 99%;
+}
+@media screen and (min-width: 768px) {
+  hr {
+    display: none;
+  }
+}
